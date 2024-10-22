@@ -794,7 +794,7 @@ function redzlib:MakeWindow(Configs)
         
         CreateTween({MainFrame, "Position", UDim2.new(0.5, -UISizeX/2, 0.5, -UISizeY/2), 0.25, true})
         CreateTween({Main, "Size", UDim2.fromOffset(UISizeX - 250, UISizeY - 150), .4, true})
-        ww(0.3)
+        wait(0.3)
 		ScreenGui:Destroy()
 		CreateTween({Main, "Size", UDim2.fromOffset(0, 0), 0.4, true})
 		ui:Destroy()
