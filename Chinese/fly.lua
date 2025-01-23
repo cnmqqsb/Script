@@ -697,7 +697,7 @@ incraseBtn = addButton("加速", function()
 		speeds = speeds + 1
 		updatespeed(char, hum)
 
-		toggleBtn:WaitForChild("Name").Text = "Toggle fly: " .. speeds
+		toggleBtn:WaitForChild("Name").Text = "开关 速度: " .. speeds
 	end
 end)
 
@@ -712,7 +712,7 @@ decraseBtn = addButton("减速", function()
 			updatespeed(char, hum)
 		end
 
-		toggleBtn:WaitForChild("Name").Text = "Toggle fly: " .. speeds
+		toggleBtn:WaitForChild("Name").Text = "开关 速度: " .. speeds
 	end
 end)
 
